@@ -1,7 +1,7 @@
 
 <ArkTraumas>
  <Traumas>
-  <ArkTrauma ID="12348086275151114879" Name="Bleeding" DrainRate="0.1" RemoveSignal="10641886185827734578" Duration="-1" Label="@ui_TraumaLacerations" PostEffect="17152079492909370830" HowToRemove="@ui_TraumaLacerationsRemove" SuitVO="13680621263376751959" AccumulateSignal="7745561652447168043" PostEffectParam="16934642289606346096" DoesStack="true" RemoveOnDrain="true" MaxAccumulation="4000" PlayerMaterial="Objects\characters\Player\Male\player1p_male01_arms_blood" PlayerMaterialPriority="5" SurvivalMode="true">
+  <ArkTrauma ID="12348086275151114879" Name="Bleeding" DrainRate="0.1" RemoveSignal="10641886185827734578" Duration="-1" Label="@ui_TraumaLacerations" PostEffect="17152079492909370830" HowToRemove="@ui_TraumaLacerationsRemove" SuitVO="13680621263376751959" AccumulateSignal="7745561652447168043" PostEffectParam="16934642289606346096" DoesStack="true" RemoveOnDrain="true" MaxAccumulation="4000" PlayerMaterial="Objects\characters\Player\Male\player1p_male01_arms_blood" PlayerMaterialPriority="5">
    <Phases>
     <ArkTraumaPhase Description="@ui_TraumaLacerationsDesc" DamageThreshold="5" HudIcon="bleeding">
      <SignalModifiers>
