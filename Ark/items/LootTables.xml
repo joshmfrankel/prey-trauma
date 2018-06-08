@@ -1729,6 +1729,11 @@
       <ArkLootItem Archetype="ArkPickups.Food.Box.SpiraliteCookies" Weight="1"/>
      </Items>
     </ArkLootSlot>
+    <ArkLootSlot>
+      <Items>
+        <ArkLootItem Archetype="ArkPickups.Medical.TraumaPharmas.AntiBleed" Weight="1"/>
+      </Items>
+    </ArkLootSlot>
    </Slots>
   </ArkLootTable>
   <ArkLootTable Name="NPC_Human_ApartmentGrette">
