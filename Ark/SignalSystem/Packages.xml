@@ -1,4 +1,4 @@
-
+<?xml version="1.0"?>
 <packages>
  <package name="12GaugeBlast" id="10641886185795235685">
   <signal signalID="3149325216915554009" value="200"/>
@@ -151,6 +151,7 @@
   <signal signalID="9469288860522565432"/>
   <signal signalID="9469288860534058129"/>
   <signal signalID="3149325216976385394" value=".075"/>
+  <signal signalID="3149325216914689729" value="2"/>
  </package>
  <package name="ApexWall" id="3149325216979390582">
   <signal signalID="3149325216985458135" value="1"/>
@@ -279,6 +280,7 @@
   <signal signalID="3149325216913727228" value="580"/>
   <signal signalID="3149325216914689627" value="4"/>
   <signal signalID="3149325216954346631" value=".2"/>
+  <signal signalID="3149325216914689666" value="100"/>
  </package>
  <package name="ElectricalBoxExplosion" id="3149325216918395318">
   <signal signalID="3149325216989680495"/>
@@ -288,12 +290,14 @@
   <signal signalID="3149325216915549018" value=".1"/>
   <signal signalID="3149325216913726733" value="100"/>
   <signal signalID="3149325216913727228" value="150"/>
+  <signal signalID="3149325216914689666" value="100"/>
  </package>
  <package name="ElectricFloorPanel" id="10641886185795235335">
   <signal signalID="3149325216989680495"/>
   <signal signalID="3149325216915549018" value="0"/>
   <signal signalID="3149325216913727228" value="50"/>
   <signal signalID="3149325216914689627" value="1"/>
+  <signal signalID="3149325216914689666" value="100"/>
  </package>
  <package name="EMPCharge" id="10641886185795235992">
   <signal signalID="3149325216954694561" value="1"/>
@@ -378,7 +382,7 @@
   <signal signalID="10739735956146929246"/>
  </package>
  <package name="HPWater" id="10641886185842501116">
-  <signal signalID="3149325216929787165" value="10"/>
+  <signal signalID="3149325216929787165" value="1"/>
  </package>
  <package name="LureCharge" id="10641886185830927780">
   <signal signalID="3149325216963998992"/>
@@ -395,6 +399,7 @@
   <signal signalID="9469288860522565432"/>
   <signal signalID="5310807215636213132"/>
   <signal signalID="3149325216911145914" value="50"/>
+  <signal signalID="7745561652447168043" value="100"/>
  </package>
  <package name="MimicMelee" id="3149325216914175803">
   <signal signalID="3149325216913727213" value="2"/>
@@ -405,7 +410,6 @@
   <signal signalID="3149325216914689654" value=""/>
   <signal signalID="3149325216954857386" value=".34"/>
   <signal signalID="3149325216915549018" value=".125"/>
-  <!-- Bleeding -->
   <signal signalID="7745561652447168043" value="25"/>
  </package>
  <package name="MimicMeleeElite" id="9469288860519133836">
@@ -417,7 +421,6 @@
   <signal signalID="3149325216915554009" value="240"/>
   <signal signalID="3149325216914689654"/>
   <signal signalID="3149325216954857386" value=".5"/>
-  <!-- Bleeding -->
   <signal signalID="7745561652447168043" value="50"/>
  </package>
  <package name="MimicFlamingMimicAura" id="9469288860495533935">
@@ -470,7 +473,7 @@
   <signal signalID="3149325216915554009" value="750"/>
   <signal signalID="3149325216954857386" value="1"/>
   <signal signalID="3149325216954857347" value=".25"/>
-  <!-- Bleeding -->
+  <signal signalID="3149325216947007897" value="100"/>
   <signal signalID="7745561652447168043" value="1000"/>
  </package>
  <package name="NightmareProjectile" id="3149325216973929839">
@@ -717,7 +720,6 @@
   <signal signalID="3149325216976385394" value=".25"/>
   <signal signalID="7745561656291547931" value="10"/>
   <signal signalID="3149325216914689654"/>
-  <!-- Bleeding -->
   <signal signalID="7745561652447168043" value="150"/>
  </package>
  <package name="OperatorCorruptedMedicalMelee" id="9469288860517477303">
@@ -727,7 +729,7 @@
   <signal signalID="3149325216915549018" value=".1"/>
   <signal signalID="3149325216915554009" value="50"/>
   <signal signalID="3149325216914689654"/>
-  <signal signalID="7745561652447168043" value="5"/>
+  <signal signalID="7745561652447168043" value="100"/>
  </package>
  <package name="OperatorCorruptedScience" id="9469288860517477196">
   <signal signalID="3149325216985458135" value="1"/>
@@ -880,6 +882,7 @@
   <signal signalID="3149325216954857347" value=".1"/>
   <signal signalID="3149325216929612871"/>
   <signal signalID="9469288860523156056" value="1"/>
+  <signal signalID="3149325216914689666" value="25"/>
  </package>
  <package name="PhantomMelee" id="3149325216914175777">
   <signal signalID="3149325216913727213" value="5"/>
@@ -890,8 +893,8 @@
   <signal signalID="3149325216915554009" value="250"/>
   <signal signalID="3149325216914689654" value=""/>
   <signal signalID="3149325216954857386" value=".5"/>
-  <!-- Bleeding -->
   <signal signalID="7745561652447168043" value="300"/>
+  <signal signalID="3149325216914689729" value="3"/>
  </package>
  <package name="PhantomPassiveInterferenceAura" id="3149325216936549501">
   <signal signalID="9469288860534058129"/>
@@ -1086,7 +1089,7 @@
   <signal signalID="12348086275117776764" value="60"/>
  </package>
  <package name="PsiWater" id="3149325216949420112">
-  <signal signalID="3149325216929787188" value="50"/>
+  <signal signalID="3149325216929787188" value="5"/>
  </package>
  <package name="QbeamWeapon" id="10641886185795235829">
   <signal signalID="3149325216915549018" value=".01"/>

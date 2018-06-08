@@ -1,4 +1,4 @@
-
+<?xml version="1.0"?>
 <ArkTraumas>
  <Traumas>
   <ArkTrauma ID="12348086275151114879" Name="Bleeding" DrainRate="0.1" RemoveSignal="10641886185827734578" Duration="-1" Label="@ui_TraumaLacerations" PostEffect="17152079492909370830" HowToRemove="@ui_TraumaLacerationsRemove" SuitVO="13680621263376751959" AccumulateSignal="7745561652447168043" PostEffectParam="16934642289606346096" DoesStack="true" RemoveOnDrain="true" MaxAccumulation="4000" PlayerMaterial="Objects\characters\Player\Male\player1p_male01_arms_blood" PlayerMaterialPriority="5">
@@ -13,7 +13,7 @@
     </ArkTraumaPhase>
    </Phases>
   </ArkTrauma>
-  <ArkTrauma ID="12348086275151114854" Name="Blind" DrainRate="25" Duration="5.0" RemoveSignal="" PostEffect="" Label="@ui_TraumaBlind" HowToRemove="@ui_TraumaBlindRemove" TraumaSFX="Play_Player_Trauma_Blindness" AccumulateSignal="3149325216914689666" PostEffectParam="" DoesStack="false" RemoveOnDrain="false" MaxAccumulation="100" SurvivalMode="true">
+  <ArkTrauma ID="12348086275151114854" Name="Blind" DrainRate="25" Duration="5.0" RemoveSignal="" PostEffect="" Label="@ui_TraumaBlind" HowToRemove="@ui_TraumaBlindRemove" TraumaSFX="Play_Player_Trauma_Blindness" AccumulateSignal="3149325216914689666" PostEffectParam="" DoesStack="false" RemoveOnDrain="false" MaxAccumulation="100">
    <Phases>
     <ArkTraumaPhase DamageThreshold="100" Description="@ui_TraumaBlindDesc" HudIcon="blind">
      <SignalModifiers/>
@@ -23,7 +23,7 @@
     </ArkTraumaPhase>
    </Phases>
   </ArkTrauma>
-  <ArkTrauma ID="12348086275151114873" Name="Concussion" DrainRate="50" Duration="-1" RemoveSignal="10641886185827734593" Label="@ui_TraumaConcussion" PostEffect="17152079492909370879" HowToRemove="@ui_TraumaConcussionRemove" SuitVO="13680621263376752251" TraumaSFX="Play_Player_Trauma_Concussion" AccumulateSignal="3149325216947006941" RepeatMin="15" RepeatMax="25" DoesStack="false" RemoveOnDrain="false" MaxAccumulation="100" SurvivalMode="true">
+  <ArkTrauma ID="12348086275151114873" Name="Concussion" DrainRate="50" Duration="-1" RemoveSignal="10641886185827734593" Label="@ui_TraumaConcussion" PostEffect="17152079492909370879" HowToRemove="@ui_TraumaConcussionRemove" SuitVO="13680621263376752251" TraumaSFX="Play_Player_Trauma_Concussion" AccumulateSignal="3149325216947006941" RepeatMin="15" RepeatMax="25" DoesStack="false" RemoveOnDrain="false" MaxAccumulation="100">
    <Phases>
     <ArkTraumaPhase DamageThreshold="100" Description="@ui_TraumaConcussionDesc" HudIcon="concussion">
      <SignalModifiers>
@@ -77,7 +77,7 @@
     </ArkTraumaPhase>
    </Phases>
   </ArkTrauma>
-  <ArkTrauma ID="12348086275151114868" Name="Hobbled" DrainRate="100" Duration="-1" RemoveSignal="10641886185827734563" TagState="hobbled" Label="@ui_TraumaCrippled" HowToRemove="@ui_TraumaCrippledRemove" SuitVO="13680621263376752954" AccumulateSignal="3149325216947007897" PostEffect="2428940965257409293" DoesStack="false" RemoveOnDrain="false" MaxAccumulation="250" SurvivalMode="true">
+  <ArkTrauma ID="12348086275151114868" Name="Hobbled" DrainRate="100" Duration="-1" RemoveSignal="10641886185827734563" TagState="hobbled" Label="@ui_TraumaCrippled" HowToRemove="@ui_TraumaCrippledRemove" SuitVO="13680621263376752954" AccumulateSignal="3149325216947007897" PostEffect="2428940965257409293" DoesStack="false" RemoveOnDrain="false" MaxAccumulation="250">
    <Phases>
     <ArkTraumaPhase DamageThreshold="250" Description="@ui_TraumaCrippledDesc" HudIcon="crippled">
      <SignalModifiers/>
@@ -148,7 +148,7 @@
     </ArkTraumaPhase>
    </Phases>
   </ArkTrauma>
-  <ArkTrauma ID="12348086275151114863" Name="ThirdDegreeBurns" DrainRate="10" RemoveSignal="10641886185827734586" SuitVO="13680621263376753108" TraumaSFX="Play_Player_Trauma_Burn" Duration="-1" Label="@ui_TraumaBurns" HowToRemove="@ui_TraumaBurnsRemove" AccumulateSignal="7745561656291547931" DoesStack="true" RemoveOnDrain="false" MaxAccumulation="1500" PlayerMaterial="Objects\characters\Player\Male\player1p_male01_arms_burnt" SurvivalMode="true">
+  <ArkTrauma ID="12348086275151114863" Name="ThirdDegreeBurns" DrainRate="10" RemoveSignal="10641886185827734586" SuitVO="13680621263376753108" TraumaSFX="Play_Player_Trauma_Burn" Duration="-1" Label="@ui_TraumaBurns" HowToRemove="@ui_TraumaBurnsRemove" AccumulateSignal="7745561656291547931" DoesStack="true" RemoveOnDrain="false" MaxAccumulation="1500" PlayerMaterial="Objects\characters\Player\Male\player1p_male01_arms_burnt">
    <Phases>
     <ArkTraumaPhase DamageThreshold="100" Description="@ui_TraumaBurnsDesc" HudIcon="burns">
      <SignalModifiers/>
